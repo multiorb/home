@@ -19,7 +19,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
       </head>
-      <body className="select-none bg-background text-primary h-screen">
+      <body className="select-none bg-layout-darkest text-text-lightest h-screen">
         {children}
         <ScrollRestoration />
         <Scripts />

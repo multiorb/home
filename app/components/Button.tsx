@@ -8,7 +8,7 @@ interface ButtonProps {
 }
 
 export function Button({ children, href, className = '' }: ButtonProps) {
-  const baseClasses = 'h-8 px-4 text-xs w-full inline-flex items-center justify-between space-x-2 shadow-sm rounded border border-border hover:border-accent hover:bg-accent';
+  const baseClasses = 'h-8 px-4 text-xs w-full inline-flex items-center justify-between space-x-2 shadow-sm rounded border border-layout-dark hover:border-accent hover:bg-accent';
   
   const buttonContent = (
     <span className="flex items-center space-x-2 text-primary">{children}</span>
